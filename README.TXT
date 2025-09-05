@@ -11,12 +11,14 @@ ANSWERS TO THE QUESTIONS
 
 6. Outer wrappers of Student and LabClass classes could look something like this:
 
-public class Student {
-    
+public class Student
+{
+
 }
 
-public class LabClass {
-    
+public class LabClass
+{
+
 }
 
 7. Whether we write public class or class public changes a lot. class public is not even valid and does not let me compile the class. Trying to compile will give an error message and will just send you to the
