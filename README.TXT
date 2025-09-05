@@ -92,3 +92,15 @@ The month is String as it was given to us as text whereas the day and year were 
  with the balance, and the clearance of the balance, showing overall much more detail as to what it does.
  
  29. insertMoney and printTicket methods do not have return statements are they are void methods, which means they don't return anything. They are not supposed to give back a value.
+ 
+ 31.
+/**
+* Increase score by the given number of points.
+*/
+public void increaseScore(int points)
+{
+// TODO: Increase score by the value in points.
+score += points;
+}
+
+32. 
