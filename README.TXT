@@ -138,3 +138,5 @@ public void setAlive(boolean isAlive)
 43. The same output is printed. &d allows Java to insert an Integer, whereas %n inserts a new line.
 
 44. When creating object, we are no longer asked to set a price for a ticket. Instead, every object has the price of a ticket set for 1000 cents.
+
+46. Parameters are not needed as it just empties the money in the machine, reseting it to 0. It is changing the state of the object, which makes it a mutator.
