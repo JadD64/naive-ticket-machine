@@ -99,8 +99,42 @@ The month is String as it was given to us as text whereas the day and year were 
 */
 public void increaseScore(int points)
 {
-// TODO: Increase score by the value in points.
 score += points;
 }
 
-32. 
+32. Yes, it is a mutator because it changes the state of a Student object.
+
+33.
+/**
+* Reduce price by the given amount.
+*/
+public void discount(int amount)
+{
+    price -= amount;
+}
+
+34.
+public void setAge(int currentAge)
+{
+    age = currentAge;
+}
+
+35.
+public void setAlive(boolean isAlive)
+{
+    alive = isAlive;
+}
+
+36. The value of the price shown in the inspector is 0, despite it being set for 100 initially.
+
+37. My cat has green eyes.
+
+39. Price is now a string and not a variable. It longer prints of the value of price but rather the word "price". (for example, "price cents" rather than "100 cents")
+
+40. The output would just be "# price cents." as it is.
+
+42. The outputs will be different as each machine had its own price set to it, so each will show its own value.
+
+43. The same output is printed. &d allows Java to insert an Integer, whereas %n inserts a new line.
+
+44. When creating object, we are no longer asked to set a price for a ticket. Instead, every object has the price of a ticket set for 1000 cents.
